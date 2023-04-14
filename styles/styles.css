@@ -14,11 +14,11 @@
   /* colors */
   --link-color: #035fe6;
   --link-hover-color: #136ff6;
-  --background-color: #fff;
+  --background:radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  //--background-color: #C9F6FF;
   --overlay-background-color: #eee;
   --highlight-background-color: #ccc;
-  --text-color: #000;
-
+  --text-color: #6e78ff;
   /* fonts */
   --body-font-family: 'helvetica neue', helvetica, ubuntu, roboto, noto, sans-serif;
   --heading-font-family: var(--body-font-family);
@@ -59,7 +59,7 @@ body {
   font-family: var(--body-font-family);
   line-height: 1.6;
   color: var(--text-color);
-  background-color: var(--background-color);
+  background: var(--background);
   display: none;
 }
 
@@ -172,7 +172,7 @@ main input {
   font-size: 1.25rem;
   width: 100%;
   max-width: 50rem;
-  display: block;
+  //display: block;
   margin-bottom: 1rem;
   padding: 0.75rem 0.6rem;
   border-radius: 0.25rem;
@@ -226,7 +226,7 @@ main .section {
 
 @media (min-width: 600px) {
   main .section {
-    padding: 64px 32px;
+    padding: 0px 0px;
   }
 }
 
