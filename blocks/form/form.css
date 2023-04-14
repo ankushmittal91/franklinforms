@@ -20,7 +20,7 @@ main .form h3 {
 main .form input,
 main .form textarea,
 main .form select {
-  border: 1px solid gray;
+  border: 1px solid var(--border-color);
   padding: 15px;
   border-radius: 10px;
   width: 100%;
@@ -28,7 +28,7 @@ main .form select {
   box-sizing: border-box;
   margin-top: 4px;
   background-color: transparent;
-  color: gray;
+  color:var(--field-color);
   font-weight: bold;
   font-size: var(--type-body-m-size);
 }
@@ -58,7 +58,7 @@ main .form label {
 
 main .form label.required::after {
   content: "*";
-  color: gray;
+  color: var(--text-color);
   padding-left: 5px;
 }
 
@@ -116,13 +116,13 @@ main .form .form-checkbox-wrapper label {
 
 main .form .button {
   cursor: pointer;
-  background: rgb(20 115 230);
-  color: white;
+  background: transparent;
+  color: var(--field-color);
   border-radius: 16px;
   font-size: var(--type-body-s-size);
   font-weight: 300;
-  padding: 6px 16px;
-  border: none;
+  padding: 26px 26px;
+  border: 3px solid var(--border-color);
   font-family: adobe-clean, 'Trebuchet MS', sans-serif;
 }
 
