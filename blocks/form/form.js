@@ -1,5 +1,3 @@
-var opts;
-
 function createSelect(fd) {
   const select = document.createElement('select');
   select.id = fd.Field;
@@ -177,7 +175,6 @@ async function createForm(formURL) {
     fieldWrapper.classList.add('field-wrapper');
     switch (fd.Type) {
       case 'select':
-        opts  = fd.Options;
         fieldWrapper.append(createLabel(fd));
         fieldWrapper.append(createSelect(fd));
         break;

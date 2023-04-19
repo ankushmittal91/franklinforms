@@ -1,7 +1,9 @@
 main .form {
   padding: var(--spacing-m);
   text-align: center;
-
+  background: white;
+  border: 20px solid white;
+  border-radius: 20px;
 }
 
 main .form h2 {
@@ -50,7 +52,7 @@ main .form label {
   line-height: var(--type-body-s-lh);
   padding-bottom: var(--spacing-xs);
   padding-right: 100px;
-  text-transform: uppercase;
+  //text-transform: uppercase;
   box-sizing: border-box;
   font-weight: 800;
   max-width: 10px;
@@ -117,7 +119,7 @@ main .form .form-checkbox-wrapper label {
 main .form .button {
   cursor: pointer;
   background: transparent;
-  color: var(--field-color);
+  color: var(--text-color);
   border-radius: 16px;
   font-size: var(--type-body-s-size);
   font-weight: 300;
