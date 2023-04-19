@@ -118,13 +118,12 @@ main .form .form-checkbox-wrapper label {
 
 main .form .button {
   cursor: pointer;
-  background: transparent;
-  color: var(--text-color);
-  border-radius: 16px;
+  background: var(--text-color);
+  color: white;
+  border-radius: 20px;
   font-size: var(--type-body-s-size);
   font-weight: 300;
-  padding: 26px 26px;
-  border: 3px solid var(--border-color);
+  padding: 26px 36px;
   font-family: adobe-clean, 'Trebuchet MS', sans-serif;
 }
 
