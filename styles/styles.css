@@ -83,7 +83,7 @@ h4, h5, h6 {
   scroll-margin: calc(var(--nav-height) + 1em);
 }
 
-h4 {
+h5 {
   background-color: #5d45aa;
   color: white;
   border: 1px;
